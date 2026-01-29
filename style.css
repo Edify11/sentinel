@@ -438,6 +438,77 @@ a {
     line-height: 1.6;
 }
 
+/* --- Example Clause Section --- */
+.example-section {
+    padding: 6rem 2rem;
+    background-color: var(--surface);
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    text-align: center;
+}
+
+.example-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.example-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 2.5rem;
+    margin: 3rem auto;
+    max-width: 600px;
+    text-align: left;
+    position: relative;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.example-text {
+    font-family: 'Courier New', monospace;
+    font-size: 1.1rem;
+    color: #e2e2e2;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 3px solid var(--primary);
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.example-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.example-list li {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 1rem;
+    color: var(--text-secondary);
+}
+
+.example-x {
+    font-size: 1.2rem;
+}
+
+.example-closing {
+    font-weight: 600;
+    color: var(--foreground);
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+
+.example-cta {
+    margin-top: 2rem;
+}
+
 /* Beta Section styles removed */
 
 /* --- Trust Section --- */
